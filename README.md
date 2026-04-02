@@ -17,8 +17,8 @@ Kaggle 대회 페이지에서 데이터를 다운로드하여 `data/` 폴더에 
 - `county_id_to_name_map.json`
 
 ### 2. 노트북 실행 순서
-1. **EDA.ipynb** - 데이터 탐색 및 이해
-2. **Preprocess.ipynb** - 데이터 전처리 및 피처 엔지니어링
+1. **EDA.ipynb** 
+2. **Preprocess.ipynb** 
 3. **LinearReg.ipynb** - 베이스라인 모델 (Linear Regression)
 4. **XGBoost.ipynb** - 개선된 모델 (XGBoost)
 
