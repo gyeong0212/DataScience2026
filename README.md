@@ -2,29 +2,6 @@
 
 **대회**: [Enefit - Predict Energy Behavior of Prosumers](https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)
 
-##  프로젝트 구조
-
-```
-kaggle/
-├── data/                    # 데이터 파일들
-│   ├── train.csv
-│   ├── client.csv
-│   ├── electricity_prices.csv
-│   ├── gas_prices.csv
-│   ├── historical_weather.csv
-│   ├── forecast_weather.csv
-│   ├── weather_station_to_county_mapping.csv
-│   ├── county_id_to_name_map.json
-│   └── processed_data/      # 전처리된 데이터
-├── notebooks/               # Jupyter 노트북들
-│   ├── EDA.ipynb           # 탐색적 데이터 분석
-│   ├── Preprocess.ipynb    # 데이터 전처리
-│   ├── LinearReg.ipynb     # Linear Regression 베이스라인
-│   └── XGBoost.ipynb       # XGBoost 모델
-└── README.md
-```
-
-##  시작하기
 
 ### 1. 데이터 다운로드
 Kaggle 대회 페이지에서 데이터를 다운로드하여 `data/` 폴더에 넣어주세요.
